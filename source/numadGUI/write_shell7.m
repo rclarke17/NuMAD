@@ -299,39 +299,39 @@ try
     fprintf(fid,'\n   et,15,shell99,,1');
     fprintf(fid,'\n   keyopt,15,8,1\n');
 
-    %tcl: shell91, store data for all layers, nodes at mid surface
-    fprintf(fid,'\n   et,16,shell91,100');
-    fprintf(fid,'\n   keyopt,16,8,1\n');
-
-    %tcl: shell91, store data for all layers, nodes at bottom surface
-    fprintf(fid,'\n   et,17,shell91,100');
-    fprintf(fid,'\n   keyopt,17,8,1');
-    fprintf(fid,'\n   keyopt,17,11,1\n');
-
-    %tcl: shell91, store data for all layers, nodes at top surface
-    fprintf(fid,'\n   et,18,shell91,100');
-    fprintf(fid,'\n   keyopt,18,8,1');
-    fprintf(fid,'\n   keyopt,18,11,2\n');
-
-    %tcl: shell91, sandwich option, store data for all layers, nodes at mid surface
-    fprintf(fid,'\n   et,19,shell91,100');
-    fprintf(fid,'\n   keyopt,19,5,1');
-    fprintf(fid,'\n   keyopt,19,8,1');
-    fprintf(fid,'\n   keyopt,19,9,1\n');
-
-    %tcl: shell91, sandwich option store data for all layers, nodes at bottom surface
-    fprintf(fid,'\n   et,20,shell91,100');
-    fprintf(fid,'\n   keyopt,20,5,1');
-    fprintf(fid,'\n   keyopt,20,8,1');
-    fprintf(fid,'\n   keyopt,20,11,1');
-    fprintf(fid,'\n   keyopt,20,9,1\n');
-
-    %tcl: shell91, sandwich option store data for all layers, nodes at top surface
-    fprintf(fid,'\n   et,22,shell91,100');
-    fprintf(fid,'\n   keyopt,22,5,1');
-    fprintf(fid,'\n   keyopt,22,8,1');
-    fprintf(fid,'\n   keyopt,22,11,2');
-    fprintf(fid,'\n   keyopt,22,9,1\n');
+%     %tcl: shell91, store data for all layers, nodes at mid surface
+%     fprintf(fid,'\n   et,16,shell91,100');
+%     fprintf(fid,'\n   keyopt,16,8,1\n');
+% 
+%     %tcl: shell91, store data for all layers, nodes at bottom surface
+%     fprintf(fid,'\n   et,17,shell91,100');
+%     fprintf(fid,'\n   keyopt,17,8,1');
+%     fprintf(fid,'\n   keyopt,17,11,1\n');
+% 
+%     %tcl: shell91, store data for all layers, nodes at top surface
+%     fprintf(fid,'\n   et,18,shell91,100');
+%     fprintf(fid,'\n   keyopt,18,8,1');
+%     fprintf(fid,'\n   keyopt,18,11,2\n');
+% 
+%     %tcl: shell91, sandwich option, store data for all layers, nodes at mid surface
+%     fprintf(fid,'\n   et,19,shell91,100');
+%     fprintf(fid,'\n   keyopt,19,5,1');
+%     fprintf(fid,'\n   keyopt,19,8,1');
+%     fprintf(fid,'\n   keyopt,19,9,1\n');
+% 
+%     %tcl: shell91, sandwich option store data for all layers, nodes at bottom surface
+%     fprintf(fid,'\n   et,20,shell91,100');
+%     fprintf(fid,'\n   keyopt,20,5,1');
+%     fprintf(fid,'\n   keyopt,20,8,1');
+%     fprintf(fid,'\n   keyopt,20,11,1');
+%     fprintf(fid,'\n   keyopt,20,9,1\n');
+% 
+%     %tcl: shell91, sandwich option store data for all layers, nodes at top surface
+%     fprintf(fid,'\n   et,22,shell91,100');
+%     fprintf(fid,'\n   keyopt,22,5,1');
+%     fprintf(fid,'\n   keyopt,22,8,1');
+%     fprintf(fid,'\n   keyopt,22,11,2');
+%     fprintf(fid,'\n   keyopt,22,9,1\n');
 
     %tcl: structural mass
     fprintf(fid,'\n   et,21,mass21,,,0');
